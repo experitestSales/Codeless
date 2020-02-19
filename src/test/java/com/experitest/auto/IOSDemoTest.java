@@ -11,6 +11,7 @@ public class IOSDemoTest extends TestBase {
 
     @Test(groups = "all")
     public void test() {
-        Steps.click(null,null,context);
+        Steps.login(company, company, a, null, context);
+        Steps.click(null, null, context);
     }
 }
