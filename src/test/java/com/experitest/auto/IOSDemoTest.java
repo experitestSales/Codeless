@@ -11,7 +11,6 @@ public class IOSDemoTest extends TestBase {
 
     @Test(groups = "all")
     public void test() {
-        Steps.waitFor(30, null, null, context);
         Steps.click(null, null, context);
     }
 }
