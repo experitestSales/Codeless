@@ -15,5 +15,6 @@ public class IOSDemoTest extends TestBase {
         Steps.sendKeys(zs, null, null, context);
         Steps.waitFor(2, null, null, context);
         Steps.click(null, null, context);
+        Steps.sendKeys(zs, null, null, context);
     }
 }
